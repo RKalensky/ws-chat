@@ -12,7 +12,7 @@ Installs all dependencies for server and client
 
 Install dependencies for server and client separately
 
-### `npm run server:install and client:install`
+### `npm run server:run and client:run`
 
 Run projects
 
