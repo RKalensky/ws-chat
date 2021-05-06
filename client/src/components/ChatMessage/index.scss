@@ -1,0 +1,27 @@
+.chat-message-block {
+  margin-bottom: 10px;
+
+  &--inline-block {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  &__nick {
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  &__message {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+
+  &__date {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,24 @@
+@import './assets/styles/reset.scss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font: 400 16px / 1.2 Arial;
+  color: #1c1c1c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    border-bottom: 1px solid #1c1c1c;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

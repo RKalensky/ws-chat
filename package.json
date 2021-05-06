@@ -1,0 +1,14 @@
+{
+  "name": "setup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm run server:install && npm run client:install",
+    "client:install": "cd client && npm install",
+    "server:install": "cd server && npm install",
+    "client:run": "cd client && npm run start",
+    "server:run": "cd server && npm run start",
+    "server:run-debug": "cd server && npm run start:debug",
+    "client:build": "cd client && npm run build"
+  }
+}

@@ -1,0 +1,21 @@
+.chat-message-panel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+
+  &__input {
+    height: 40px;
+    flex-grow: 5;
+    border: none;
+    border-right: 1px solid #cccccc;
+  }
+  
+  &__submit-button {
+    flex-grow: 1;
+  }
+}
